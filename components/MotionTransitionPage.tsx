@@ -1,4 +1,4 @@
-import { transitionVariantsPage } from "@/landing-page-particles-main/landing-page-particles-main/utils/motion-transitions";
+import { transitionVariantsPage } from "@/utils/MotionTransition";
 import { AnimatePresence, motion } from "framer-motion";
 
 const MotionTransitionPage = () => {

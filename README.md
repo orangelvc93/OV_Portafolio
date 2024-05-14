@@ -6,3 +6,7 @@ https://www.npmjs.com/package/@tsparticles/react
 https://www.framer.com/motion/introduction/
 
 ## lucide-react   ===== iconos react
+
+
+## react-type-animation
+https://www.npmjs.com/package/react-type-animation

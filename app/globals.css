@@ -13,12 +13,13 @@ html, body {
 
 main {
   background: #393a47;
-  height: 100vh;
-  height: 100dvh;
+  /* height: 100dvh; */
+  min-height: 100%;
 }
 
 .profile-img {
   mask-image: linear-gradient(to top, transparent 10%, rgb(0, 0, 0) 40%);
+  transform: scaleX(-1);
 }
 
 @layer utilities {
