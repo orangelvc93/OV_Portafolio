@@ -17,6 +17,10 @@ main {
   height: 100dvh;
 }
 
+.profile-img {
+  mask-image: linear-gradient(to top, transparent 10%, rgb(0, 0, 0) 40%);
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;

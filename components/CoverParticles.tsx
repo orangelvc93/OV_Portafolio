@@ -35,7 +35,7 @@ export const CoverParticles = () => {
 									quantity: 4,
 								},
 								repulse: {
-									distance: 50,
+									distance: 140,
 									duration: 0.4,
 								},
 							},

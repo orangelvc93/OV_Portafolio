@@ -6,7 +6,7 @@ const Header = () => {
 	return (
 		<MotionTransition
 			position="bottom"
-			className="absolute z-40 inline-block w-full  top-5 md:top-10"
+			className="absolute z-40 inline-block w-full  top-5 md:top-10 px-10 lg:px-0"
 		>
 			<header>
 				<div className="container max-w-6xl mx-auto md:flex justify-between">
