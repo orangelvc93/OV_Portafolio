@@ -16,7 +16,7 @@ const Intro = () => {
 						className="profile-img lg:w-[20vw] m-auto"
 					/>
 				</MotionTransition>
-				<MotionTransition position="left">
+				<MotionTransition position="right">
 					<div className="flex flex-col justify-center max-w-lg">
 						<h1 className="text-2xl md:text-4xl leading-tight text-center mb-5 md:text-left md:mb-10 lg:-ml-20">
 							Si puedes pensarlo, <br />
