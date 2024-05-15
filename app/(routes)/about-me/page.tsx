@@ -1,16 +1,18 @@
 "use client";
 import { CoverParticles } from "@/components/CoverParticles";
-import Intro from "@/components/Intro";
 import MotionTransitionPage from "@/components/MotionTransitionPage";
+import TabAboutMe from "@/components/TabAboutMe";
 
-export default function Home() {
+const page = () => {
 	return (
-		<main>
+		<>
 			<MotionTransitionPage />
 			<CoverParticles />
 			<div className="flex min-h-[100vh] h-full bg-no-repeat bg-gradient-cover">
-				<Intro />
+				<TabAboutMe />
 			</div>
-		</main>
+		</>
 	);
-}
+};
+
+export default page;

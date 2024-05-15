@@ -9,6 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@mui/material": "^5.15.17",
     "@tsparticles/react": "^3.0.0",
     "@tsparticles/slim": "^3.4.0",
     "framer-motion": "^11.2.0",

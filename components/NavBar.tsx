@@ -17,8 +17,8 @@ const NavBar = () => {
 					{itemsNavbar.map((item) => (
 						<div
 							key={item.id}
-							className={`cursor-pointer px-3 py-2 transition duration-300 rounded-full hover:bg-secondary ${
-								router === item.link && "bg-secondary"
+							className={`cursor-pointer px-3 py-2 transition duration-300 rounded-full brightness-125 hover:bg-secondary ${
+								router === item.link && "bg-secondary "
 							}  `}
 							data-tooltip-target="tooltip-default"
 						>
