@@ -36,7 +36,7 @@ const Intro = () => {
 								wrapper="span"
 								/* style={{ fontSize: "2em" }} */
 								repeat={Infinity}
-								className="font-bold text-secondary brightness-150"
+								className="font-bold bg-gradient-to-r from-secondary to-secondaryLight text-transparent bg-clip-text"
 							/>
 						</h1>
 						<p className=" text-xl mb-2 text-center text-white/80 md:text-left md:mb-8">
@@ -53,7 +53,7 @@ const Intro = () => {
 							</a>
 							<a
 								href="/contact"
-								className="px-4 py-3 font-bold text-center text-secondary brightness-150 uppercase transition-all rounded-lg cursor-pointer border-4 border-secondary hover:scale-110 hover:rotate-2 hover:shadow-xl active:opacity-85"
+								className="px-4 py-3 font-bold text-center bg-gradient-to-r from-secondary to-secondaryLight text-transparent bg-clip-text uppercase transition-all rounded-lg cursor-pointer border-4 border-secondaryLight hover:scale-110 hover:rotate-2 hover:shadow-xl active:opacity-85"
 							>
 								Contacta conmigo
 							</a>

@@ -69,13 +69,69 @@ export const socialNetworks = [
 	},
 ];
 
+export const codeSkills = [
+	{
+		id: 1,
+		name: "React",
+		percentage: 85,
+	},
+	{
+		id: 2,
+		name: "Tailwind",
+		percentage: 85,
+	},
+	{
+		id: 3,
+		name: "MongoDB",
+		percentage: 50,
+	},
+	{
+		id: 4,
+		name: "Node.js",
+		percentage: 70,
+	},
+	{
+		id: 5,
+		name: "Express",
+		percentage: 70,
+	},
+	{
+		id: 6,
+		name: "Next.js",
+		percentage: 50,
+	},
+	{
+		id: 7,
+		name: "Vite",
+		percentage: 70,
+	},
+];
+
+export const profesionalSkills = [
+	{
+		id: 1,
+		name: "Figma",
+		percentage: 70,
+	},
+	{
+		id: 2,
+		name: "Illustrator",
+		percentage: 50,
+	},
+	{
+		id: 3,
+		name: "PhotoShop",
+		percentage: 50,
+	},
+];
+
 export const itemsNavbar = [
 	{
 		id: 1,
 		title: "Home",
 		icon: (
 			<HomeIcon
-				size={30}
+				size={25}
 				color="#fff"
 				strokeWidth={1}
 			/>
@@ -87,7 +143,7 @@ export const itemsNavbar = [
 		title: "User",
 		icon: (
 			<UserRound
-				size={30}
+				size={25}
 				color="#fff"
 				strokeWidth={1}
 			/>
@@ -99,7 +155,7 @@ export const itemsNavbar = [
 		title: "Book",
 		icon: (
 			<BookText
-				size={30}
+				size={25}
 				color="#fff"
 				strokeWidth={1}
 			/>
@@ -111,7 +167,7 @@ export const itemsNavbar = [
 		title: "Target",
 		icon: (
 			<CodeSquare
-				size={30}
+				size={25}
 				color="#fff"
 				strokeWidth={1}
 			/>
@@ -123,7 +179,7 @@ export const itemsNavbar = [
 		title: "Home",
 		icon: (
 			<Speech
-				size={30}
+				size={25}
 				color="#fff"
 				strokeWidth={1}
 			/>

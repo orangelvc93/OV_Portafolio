@@ -10,3 +10,5 @@ https://www.framer.com/motion/introduction/
 
 ## react-type-animation
 https://www.npmjs.com/package/react-type-animation
+
+## npm i react-circular-progressbar
