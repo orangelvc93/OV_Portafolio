@@ -12,3 +12,5 @@ https://www.framer.com/motion/introduction/
 https://www.npmjs.com/package/react-type-animation
 
 ## npm i react-circular-progressbar
+
+## import { Swiper, SwiperSlide } from 'swiper/react';

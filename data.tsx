@@ -69,44 +69,6 @@ export const socialNetworks = [
 	},
 ];
 
-export const codeSkills = [
-	{
-		id: 1,
-		name: "React",
-		percentage: 85,
-	},
-	{
-		id: 2,
-		name: "Tailwind",
-		percentage: 85,
-	},
-	{
-		id: 3,
-		name: "MongoDB",
-		percentage: 50,
-	},
-	{
-		id: 4,
-		name: "Node.js",
-		percentage: 70,
-	},
-	{
-		id: 5,
-		name: "Express",
-		percentage: 70,
-	},
-	{
-		id: 6,
-		name: "Next.js",
-		percentage: 50,
-	},
-	{
-		id: 7,
-		name: "Vite",
-		percentage: 70,
-	},
-];
-
 export const profesionalSkills = [
 	{
 		id: 1,
@@ -128,7 +90,7 @@ export const profesionalSkills = [
 export const itemsNavbar = [
 	{
 		id: 1,
-		title: "Home",
+		title: "Inicio",
 		icon: (
 			<HomeIcon
 				size={25}
@@ -140,7 +102,7 @@ export const itemsNavbar = [
 	},
 	{
 		id: 2,
-		title: "User",
+		title: "Sobre mi",
 		icon: (
 			<UserRound
 				size={25}
@@ -152,7 +114,7 @@ export const itemsNavbar = [
 	},
 	{
 		id: 3,
-		title: "Book",
+		title: "Servicios",
 		icon: (
 			<BookText
 				size={25}
@@ -164,7 +126,7 @@ export const itemsNavbar = [
 	},
 	{
 		id: 4,
-		title: "Target",
+		title: "Portafolio",
 		icon: (
 			<CodeSquare
 				size={25}

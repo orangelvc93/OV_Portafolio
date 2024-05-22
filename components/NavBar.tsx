@@ -23,7 +23,12 @@ const NavBar = () => {
 							}  `}
 							data-tooltip-target="tooltip-default"
 						>
-							<Link href={item.link}>{item.icon}</Link>
+							<Link
+								href={item.link}
+								title={item.title}
+							>
+								{item.icon}
+							</Link>
 						</div>
 					))}
 				</div>

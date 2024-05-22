@@ -4,6 +4,10 @@ import "./globals.css";
 import NavBar from "@/components/NavBar";
 import Header from "@/components/Header";
 
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/scrollbar";
+
 const roboto = Roboto({
 	weight: ["400", "700"],
 	subsets: ["latin"],
