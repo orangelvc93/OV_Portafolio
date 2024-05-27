@@ -8,10 +8,7 @@ const NavBar = () => {
 	/* Obtenemos la ruta actual del ordenador */
 	const router = usePathname();
 	return (
-		<MotionTransition
-			position="right"
-			className="fixed z-40 flex items-center justify-center w-full mt-auto h-max bottom-10"
-		>
+		<div className="fixed z-40 flex items-center justify-center w-full mt-auto h-max bottom-10">
 			<nav>
 				<div className="bg-white/15 flex backdrop-blur-sm rounded-full px-3 py-2 gap-2">
 					{itemsNavbar.map((item) => (
@@ -33,7 +30,7 @@ const NavBar = () => {
 					))}
 				</div>
 			</nav>
-		</MotionTransition>
+		</div>
 	);
 };
 

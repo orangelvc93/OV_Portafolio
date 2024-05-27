@@ -43,7 +43,7 @@ const SliderServices = () => {
 							/>
 						</div>
 						<div className="p-4 card_content absolute">
-							<h3 className="mb-3 text-xl font-bold text-secondary">
+							<h3 className="mb-3 text-xl font-bold bg-gradient-to-r from-secondary to-secondaryLight text-transparent bg-clip-text">
 								{item.title}
 							</h3>
 							<p className="text-sm">{item.description}</p>

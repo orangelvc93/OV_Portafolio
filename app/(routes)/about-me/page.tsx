@@ -7,7 +7,7 @@ import Skills from "@/components/Skills";
 import TabAboutMe from "@/components/TabAboutMe";
 import Image from "next/image";
 
-const page = () => {
+const AboutMePage = () => {
 	return (
 		<>
 			<MotionTransitionPage />
@@ -44,4 +44,4 @@ const page = () => {
 	);
 };
 
-export default page;
+export default AboutMePage;
