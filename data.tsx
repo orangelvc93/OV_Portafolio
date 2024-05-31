@@ -138,7 +138,7 @@ export const itemsNavbar = [
 	},
 	{
 		id: 5,
-		title: "Home",
+		title: "Contacto",
 		icon: (
 			<Speech
 				size={25}
@@ -146,7 +146,7 @@ export const itemsNavbar = [
 				strokeWidth={1}
 			/>
 		),
-		link: "/testimonials",
+		link: "/contact",
 	},
 ];
 
