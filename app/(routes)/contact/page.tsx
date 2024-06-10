@@ -5,7 +5,7 @@ import MotionTransitionPage from "@/components/MotionTransitionPage";
 import { socialNetworks } from "@/data";
 import Image from "next/image";
 
-const page = () => {
+const ServicesPage = () => {
 	return (
 		<>
 			<CoverParticles />
@@ -46,8 +46,8 @@ const page = () => {
 							<div className=" flex flex-col w-full gap-3 justify-center items-center">
 								<div className="group flex flex-col items-center justify-center  bg-slate-600/30 w-4/5 rounded-md px-5 py-10">
 									<a
-										href=""
-										className="group-hover:text-secondaryLight transition ease-in-out duration-200 group-hover:scale-125"
+										href="https://wa.link/opkvx5"
+										className="group-hover:text-secondaryLight  transition ease-in-out duration-200 group-hover:scale-125 flex flex-col items-center"
 									>
 										<svg
 											xmlns="http://www.w3.org/2000/svg"
@@ -66,15 +66,15 @@ const page = () => {
 											<path d="M12 12h.01" />
 											<path d="M16 12h.01" />
 										</svg>
+										<p className="group-hover:scale-100 cursor-pointer text-md md:text-xl mt-3 group-hover:text-secondaryLight transition ease-in-out duration-200">
+											+593 998975304
+										</p>
 									</a>
-									<p className="group-hover:scale-125 cursor-pointer text-md md:text-xl mt-3 group-hover:text-secondaryLight transition ease-in-out duration-200">
-										345678987654
-									</p>
 								</div>
 								<div className="group flex flex-col items-center justify-center bg-slate-600/30 w-4/5 rounded-md px-5 py-10">
 									<a
-										href=""
-										className="group-hover:text-secondaryLight transition ease-in-out duration-200 group-hover:scale-125"
+										href="mailto:orangelvc93@gmail.com"
+										className="flex flex-col items-center group-hover:text-secondaryLight transition ease-in-out duration-200 group-hover:scale-125"
 									>
 										<svg
 											xmlns="http://www.w3.org/2000/svg"
@@ -97,10 +97,10 @@ const page = () => {
 											/>
 											<path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
 										</svg>
+										<p className="group-hover:scale-100 cursor-pointer text-md md:text-xl mt-3 group-hover:text-secondaryLight transition ease-in-out duration-200">
+											orangelvc93@gmail.com
+										</p>
 									</a>
-									<p className="group-hover:scale-125 cursor-pointer text-md md:text-xl mt-3 group-hover:text-secondaryLight transition ease-in-out duration-200">
-										orangelvc93@gmail.com
-									</p>
 								</div>
 							</div>
 							<div className="flex col-span-2 flex-wrap w-full gap-3 justify-center items-center pb-">
@@ -112,6 +112,7 @@ const page = () => {
 										<a
 											className="group-hover:text-secondaryLight transition ease-in-out duration-200 group-hover:scale-125"
 											href={item.src}
+											target="_blank"
 										>
 											{item.logo}
 										</a>
@@ -126,4 +127,4 @@ const page = () => {
 	);
 };
 
-export default page;
+export default ServicesPage;

@@ -33,14 +33,15 @@ const SliderServices = () => {
 			{serviceData.map((item, index) => (
 				<SwiperSlide key={index}>
 					<div className="card_wrap relative overflow-hidden border-none h-[90%] rounded-2xl bg-gradient-to-r from-darkBg to-darkBg/50">
-						<div>
+						<div className="">
 							<Image
-								src={"/space.jpg"}
+								src={item.src}
 								width={300}
 								height={300}
 								alt="img"
-								className="card_img absolute"
+								className="card_img absolute w-full"
 							/>
+							<div className="absolute inset-0 bg-black opacity-10 "></div>
 						</div>
 						<div className="p-4 card_content absolute">
 							<h3 className="mb-3 text-xl font-bold bg-gradient-to-r from-secondary to-secondaryLight text-transparent bg-clip-text">

@@ -16,8 +16,8 @@ const Intro = () => {
 						className="profile-img lg:w-[20vw] m-auto"
 					/>
 				</MotionTransition>
-				<MotionTransition position="right">
-					<div className="flex flex-col justify-center max-w-lg">
+				<div className="flex flex-col justify-center max-w-lg">
+					<MotionTransition position="right">
 						<h1 className="text-2xl md:text-4xl leading-tight text-center mb-5 md:text-left md:mb-10 ">
 							Si puedes pensarlo, <br />
 							<TypeAnimation
@@ -39,6 +39,8 @@ const Intro = () => {
 								className="font-bold bg-gradient-to-r from-secondary to-secondaryLight text-transparent bg-clip-text"
 							/>
 						</h1>
+					</MotionTransition>
+					<MotionTransition position="right">
 						<p className=" text-xl mb-2 text-center text-white/80 md:text-left md:mb-8">
 							Como desarrollador frontend y creador de contenido, me dedico a
 							combinar diseño y funcionalidad para crear experiencias digitales
@@ -58,8 +60,8 @@ const Intro = () => {
 								Contacta conmigo
 							</a>
 						</div>
-					</div>
-				</MotionTransition>
+					</MotionTransition>
+				</div>
 			</div>
 		</div>
 	);

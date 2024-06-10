@@ -1,9 +1,21 @@
 import {
+	FaLinkedinIn,
+	FaGithub,
+	FaFacebook,
+	FaInstagram,
+	FaXTwitter,
+	FaFolderClosed,
+	FaHouseChimney,
+	FaIdCard,
+	FaClipboardList,
+	FaUser,
+} from "react-icons/fa6";
+
+import {
 	BookText,
 	CodeSquare,
 	HomeIcon,
 	UserRound,
-	Linkedin,
 	Twitter,
 	Rss,
 	Twitch,
@@ -20,47 +32,47 @@ export const socialNetworks = [
 	{
 		id: 1,
 		logo: (
-			<Youtube
+			<FaLinkedinIn
 				size={30}
 				strokeWidth={1}
 			/>
 		),
-		src: "#!",
+		src: "https://www.linkedin.com/in/orangel-valdespino/",
 	},
 	{
 		id: 2,
 		logo: (
-			<Linkedin
+			<FaGithub
 				size={30}
 				strokeWidth={1}
 			/>
 		),
-		src: "#!",
+		src: "https://github.com/orangelvc93",
 	},
 	{
 		id: 3,
 		logo: (
-			<Twitter
+			<FaFacebook
 				size={30}
 				strokeWidth={1}
 			/>
 		),
-		src: "#!",
+		src: "https://www.facebook.com/orangelenrique.valdespino",
 	},
 	{
 		id: 4,
 		logo: (
-			<Rss
+			<FaInstagram
 				size={30}
 				strokeWidth={1}
 			/>
 		),
-		src: "#!",
+		src: "https://www.instagram.com/orangelvc93/",
 	},
 	{
 		id: 5,
 		logo: (
-			<Twitch
+			<FaXTwitter
 				size={30}
 				strokeWidth={1}
 			/>
@@ -92,9 +104,9 @@ export const itemsNavbar = [
 		id: 1,
 		title: "Inicio",
 		icon: (
-			<HomeIcon
+			<FaHouseChimney
 				size={25}
-				color="#fff"
+				color="#dedede"
 				strokeWidth={1}
 			/>
 		),
@@ -104,9 +116,9 @@ export const itemsNavbar = [
 		id: 2,
 		title: "Sobre mi",
 		icon: (
-			<UserRound
+			<FaIdCard
 				size={25}
-				color="#fff"
+				color="#dedede"
 				strokeWidth={1}
 			/>
 		),
@@ -116,9 +128,9 @@ export const itemsNavbar = [
 		id: 3,
 		title: "Servicios",
 		icon: (
-			<BookText
+			<FaClipboardList
 				size={25}
-				color="#fff"
+				color="#dedede"
 				strokeWidth={1}
 			/>
 		),
@@ -128,9 +140,9 @@ export const itemsNavbar = [
 		id: 4,
 		title: "Portafolio",
 		icon: (
-			<CodeSquare
+			<FaFolderClosed
 				size={25}
-				color="#fff"
+				color="#dedede"
 				strokeWidth={1}
 			/>
 		),
@@ -140,9 +152,9 @@ export const itemsNavbar = [
 		id: 5,
 		title: "Contacto",
 		icon: (
-			<Speech
+			<FaUser
 				size={25}
-				color="#fff"
+				color="#dedede"
 				strokeWidth={1}
 			/>
 		),
@@ -150,38 +162,80 @@ export const itemsNavbar = [
 	},
 ];
 
-export const dataAboutPage = [
+export const dataProfessionalExperience = [
 	{
 		id: 1,
-		title: "Frontend Developer",
-		subtitle: "TechSolutions",
+		title: "Especialista Técnico en Soluciones MPS",
+		subtitle: "GENSYSTEMS S.A",
 		description:
-			"Colabora con un equipo dinámico para desarrollar interfaces de usuario atractivas y funcionales que impulsen el éxito de nuestros clientes en el mundo digital.",
-		date: "Nov 2023 ",
+			"Experiencia en análisis, diseño e implementación de contratos de impresión, manejando distintos softwares con el fín de garantizar la satisfacción de los clientes y la optimización de los costos.",
+		date: "Ene. 2019 Act.",
 	},
 	{
 		id: 2,
-		title: "Creador de Experiencias Digitales",
-		subtitle: "PixelCrafters",
+		title: "Diseñador gráfico / Atención al cliente / Servicio técnico",
+		subtitle: "Punto Exacto",
 		description:
-			"Trabaja en proyectos emocionantes que desafían los límites de la creatividad y la tecnología. Únete a nosotros mientras creamos experiencias digitales cautivadoras que inspiran y cautivan a nuestros usuarios.",
-		date: "May 2021",
+			"Profesional versátil con conocimientos destacados en atención al cliente, asegurando siempre la satisfacción del usuario, y con habilidades creativas y técnicas en diseño gráfico personalizado.",
+		date: "Nov. 2017  Nov. 2018",
 	},
 	{
 		id: 3,
-		title: "Especialista en Desarrollo Frontend",
-		subtitle: "CodeForge Solutions",
+		title: "Consultor Staff en Proyectos TI / Administrador de Base de datos",
+		subtitle: "Tecnology Consulting Solution, C.A. (TCS)",
 		description:
-			"Como desarrollador frontend, tendrás la oportunidad de colaborar en proyectos diversos y desafiantes que te permitirán expandir tus habilidades y dejar tu huella en el mundo digital.",
-		date: "Ago 2019",
+			"Profesional responsable de la gestión y supervisión de bases de datos, garantizando su correcto uso según las necesidades del personal empresarial. Encargado de la creación de enlaces entre tablas y campos para optimizar la obtención de información, también es un consultor especializado en proyectos de Tecnología de la Información (TI), enfocado en mejorar la eficiencia y el rendimiento del manejo de datos.",
+		date: "Abr. 2017 Oct. 2017",
 	},
 	{
 		id: 4,
-		title: "Prácticas Grado",
-		subtitle: "WebWizards Inc.",
+		title: "Especialista en Soporte Técnico",
+		subtitle: "Servicios Creativos",
 		description:
-			"Únete a nosotros mientras creamos sitios web y aplicaciones interactivas que sorprenden y deleitan a nuestros clientes. Si tienes pasión por el diseño y la programación, y disfrutas colaborar en un entorno creativo, ¡queremos conocerte!        ",
-		date: "Mar 2018",
+			"Soporte técnico integral a empresas asignadas, resolviendo problemas específicos relacionados con servidores, incluyendo el acceso a carpetas y la creación y administración de usuarios en la red. Es un instalador experto de programas e impresoras, además de gestor de soluciones para problemas informáticos.",
+		date: "Nov. 2015 Abr. 2017",
+	},
+	{
+		id: 5,
+		title: "Analista Programador",
+		subtitle: "Soluciones Alegajos C.A",
+		description:
+			"Supervisa y optimiza el uso de datos en COMPIERE, un aplicativo de código abierto para ERP y CRM enfocado en empresas de pequeño y mediano tamaño. Crea informes visuales con IReport, contribuyendo al crecimiento de las empresas y aumentando la eficiencia del negocio con reportes claros.",
+		date: "Dic. 2014 Jun. 2015",
+	},
+];
+
+export const dataEducativeExperience = [
+	{
+		id: 1,
+		title: "Ingeniero en Informática",
+		subtitle: "Universidad Nacional Experimental Rómulo Gallegos (UNERG)",
+		description: "Caracas.",
+		date: "2017",
+	},
+	{
+		id: 2,
+		title: "TSU Administración mención Informática",
+		subtitle:
+			"Instituto Universitario de Tecnología Elías Calixto Pompa (IUTECP)",
+		description: "Caracas.",
+		date: "2015",
+	},
+	{
+		id: 3,
+		title: "React - La Guía Completa: Hooks Context Redux MERN",
+		subtitle: "UDEMY",
+		description:
+			"Desarrollo Full-Stack MERN, SSR, Gatsby, Next.js, React, Styled Components, Hooks (useReducer, useContext), Fetch API, Axios, Local Storage, CRUD, Netlify, Heroku, Vercel, MongoDB, Express.js, Node.js.",
+		date: "Cursando",
+	},
+	{
+		id: 4,
+		title: "Diseño de interfaz (UI) con Figma",
+		subtitle: "UDEMY",
+		description:
+			"Experto en diseño de interfaz de usuario para aplicaciones móviles, Capacidad para desarrollar prototipos navegables y animados,Dominio avanzado de Figma, con habilidad para crear componentes y sistemas de diseño profesionales.",
+		date: "Ene. 2023",
 	},
 ];
 
@@ -220,30 +274,35 @@ export const serviceData = [
 	{
 		icon: <Crop />,
 		title: "Branding",
+		src: "/branding.jpg",
 		description:
 			"Desarrollo de una identidad de marca sólida y coherente, incluyendo diseño de logotipo, colores y elementos visuales",
 	},
 	{
 		icon: <Pencil />,
 		title: "Diseño web",
+		src: "/diseñoweb.jpg",
 		description:
 			"Diseño creativo y profesional de interfaces web intuitivas y atractivas, centradas en la experiencia del usuario",
 	},
 	{
 		icon: <Computer />,
 		title: "Desarrollo web",
+		src: "/desarrolloweb.jpg",
 		description:
 			"Diseño y desarrollo de sitios web a medida, adaptados a tus necesidades",
 	},
 	{
 		icon: <Book />,
 		title: "Copywriting",
+		src: "/copywriting.jpg",
 		description:
 			"Creación de contenido persuasivo y atractivo que capta la atención de tu audiencia",
 	},
 	{
 		icon: <Rocket />,
 		title: "SEO",
+		src: "/seo.jpg",
 		description:
 			"Optimización de tu presencia en línea mediante estrategias de SEO avanzadas, ",
 	},
