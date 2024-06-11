@@ -103,7 +103,7 @@ const ServicesPage = () => {
 									</a>
 								</div>
 							</div>
-							<div className="flex col-span-2 flex-wrap w-full gap-3 justify-center items-center pb-">
+							<div className="flex col-span-2 flex-wrap w-full gap-3 justify-center items-center pb-6">
 								{socialNetworks.map((item) => (
 									<div
 										key={item.id}
