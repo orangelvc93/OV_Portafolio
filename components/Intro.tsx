@@ -8,7 +8,7 @@ const Intro = () => {
 			<div className="z-20 grid md:grid-cols-2 items-center justify-center m-auto h-full p-6 lg:py-10 py-20 max-w-7xl">
 				<MotionTransition position="right">
 					<Image
-						src="/home-4.png"
+						src="/home.png"
 						priority
 						width={300}
 						height={300}

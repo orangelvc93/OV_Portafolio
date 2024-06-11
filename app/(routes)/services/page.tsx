@@ -39,7 +39,7 @@ const ServicesPage = () => {
 									Servicios.
 								</span>
 							</h1>
-							<p className="mb-10 text-xl text-gray-300 text-center md:text-left md:mb-3">
+							<p className="mb-10 text-xl text-gray-300 text-center md:text-left md:mb-7">
 								Ofrezco servicios de desarrollo web frontend especializados en
 								la creación de sitios web y aplicaciones atractivas y
 								funcionales. Utilizando las últimas tecnologías, como HTML, CSS
@@ -47,9 +47,12 @@ const ServicesPage = () => {
 								responsivas que reflejan la identidad de marca de mis clientes y
 								mejoran su presencia en línea.
 							</p>
-							<button className="px-4 py-3 font-bold text-center bg-gradient-to-r from-secondary to-secondaryLight text-transparent bg-clip-text uppercase transition-all rounded-lg cursor-pointer border-4 border-secondaryLight hover:scale-110 hover:rotate-2 hover:shadow-xl active:opacity-85 w-full md:w-auto mb-10">
+							<a
+								href="/contact"
+								className="px-4 py-3 font-bold text-center bg-gradient-to-r from-secondary to-secondaryLight text-transparent bg-clip-text uppercase transition-all rounded-lg border-4 border-secondaryLight hover:scale-110 hover:rotate-2 hover:shadow-xl active:opacity-85 w-full md:w-auto mb-10"
+							>
 								Contacta conmigo
-							</button>
+							</a>
 						</MotionTransition>
 					</div>
 
