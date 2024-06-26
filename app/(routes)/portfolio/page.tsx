@@ -34,16 +34,16 @@ const PortfolioPage = () => {
 			<div className="flex min-h-[100vh] h-full bg-no-repeat bg-gradient-cover pb-32">
 				<MotionTransition
 					position="right"
-					className="flex flex-col px-5 items-center mt-32 mx-auto max-w-7xl"
+					className="flex flex-col px-5 items-center mt-32 sm:mt-24 mx-auto max-w-7xl"
 				>
-					<h1 className="text-2xl leading-tight text-center md:text-left md:text-4xl mb-10">
+					<h1 className="text-2xl leading-tight text-center md:text-left md:text-4xl mb-5">
 						Mis últimos{" "}
 						<span className="font-bold bg-gradient-to-r from-secondary to-secondaryLight text-transparent bg-clip-text">
 							{" "}
 							trabajos realizados
 						</span>
 					</h1>
-					<div className="grid lg:grid-cols-4 md:grid-cols-3 w-full gap-4">
+					<div className="grid lg:grid-cols-3 w-full gap-4">
 						{dataPortfolio.map((data) => (
 							<PortfolioBox
 								key={data.id}

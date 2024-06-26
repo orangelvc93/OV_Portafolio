@@ -208,21 +208,6 @@ export const dataProfessionalExperience = [
 export const dataEducativeExperience = [
 	{
 		id: 1,
-		title: "Ingeniero en Informática",
-		subtitle: "Universidad Nacional Experimental Rómulo Gallegos (UNERG)",
-		description: "Caracas.",
-		date: "2017",
-	},
-	{
-		id: 2,
-		title: "TSU Administración mención Informática",
-		subtitle:
-			"Instituto Universitario de Tecnología Elías Calixto Pompa (IUTECP)",
-		description: "Caracas.",
-		date: "2015",
-	},
-	{
-		id: 3,
 		title: "React - La Guía Completa: Hooks Context Redux MERN",
 		subtitle: "UDEMY",
 		description:
@@ -230,12 +215,27 @@ export const dataEducativeExperience = [
 		date: "Cursando",
 	},
 	{
-		id: 4,
+		id: 2,
 		title: "Diseño de interfaz (UI) con Figma",
 		subtitle: "UDEMY",
 		description:
 			"Experto en diseño de interfaz de usuario para aplicaciones móviles, Capacidad para desarrollar prototipos navegables y animados,Dominio avanzado de Figma, con habilidad para crear componentes y sistemas de diseño profesionales.",
 		date: "Ene. 2023",
+	},
+	{
+		id: 3,
+		title: "Ingeniero en Informática",
+		subtitle: "Universidad Nacional Experimental Rómulo Gallegos (UNERG)",
+		description: "Caracas.",
+		date: "2017",
+	},
+	{
+		id: 4,
+		title: "TSU Administración mención Informática",
+		subtitle:
+			"Instituto Universitario de Tecnología Elías Calixto Pompa (IUTECP)",
+		description: "Caracas.",
+		date: "2015",
 	},
 ];
 
@@ -311,59 +311,75 @@ export const serviceData = [
 export const dataPortfolio = [
 	{
 		id: 1,
-		title: "Web Pro",
-		image: "/image-1.jpg",
-		urlGithub: "#!",
-		urlDemo: "#!",
+		title: "Calorie Tracker",
+		image: "/Contador de calorias.png",
+		description: "Este es un proyecto web que permite realizar un cálculo de las calorías consumidas y quemadas, según los elementos que se vayan ingresando. El proyecto permite editar, cortar, eliminar datos y todo se almacena en el localStorage. Además, cuenta con un modo oscuro y se adapta a dispositivos móviles.",
+		urlGithub: "https://github.com/orangelvc93/OV_Calorie_Tracker",
+		urlDemo: "https://contador-calorias-ov.netlify.app/",
+		tags: ["#React", "#Tailwind", "#TypeScript", "#uuidv4", "#Vite", "#useReducer", "#react-icons"]
 	},
 	{
 		id: 2,
 		title: "Desarrollo Web Ágil",
 		image: "/image-2.jpg",
+		description: "",
 		urlGithub: "#!",
 		urlDemo: "#!",
+		tags: ["HTML", "CSS", "JavaScript"]
 	},
 	{
 		id: 3,
 		title: "Estrategias Web",
 		image: "/image-3.jpg",
+		description: "",
 		urlGithub: "#!",
 		urlDemo: "#!",
+		tags: ["HTML", "CSS", "JavaScript"]
 	},
 	{
 		id: 4,
 		title: "Ideas Creativas",
 		image: "/image-4.jpg",
+		description: "",
 		urlGithub: "#!",
 		urlDemo: "#!",
+		tags: ["HTML", "CSS", "JavaScript"]
 	},
 	{
 		id: 5,
 		title: "Webs Impactantes",
 		image: "/image-5.jpg",
+		description: "",
 		urlGithub: "#!",
 		urlDemo: "#!",
+		tags: ["HTML", "CSS", "JavaScript"]
 	},
 	{
 		id: 6,
 		title: "Web Dinámica",
 		image: "/image-6.jpg",
+		description: "",
 		urlGithub: "#!",
 		urlDemo: "#!",
+		tags: ["HTML", "CSS", "JavaScript"]
 	},
 	{
 		id: 7,
 		title: "Dark Web ",
 		image: "/image-7.jpg",
+		description: "",
 		urlGithub: "#!",
 		urlDemo: "#!",
+		tags: ["HTML", "CSS", "JavaScript"]
 	},
 	{
 		id: 8,
 		title: "E-commerce web",
 		image: "/image-8.jpg",
+		description: "",
 		urlGithub: "#!",
 		urlDemo: "#!",
+		tags: ["HTML", "CSS", "JavaScript"]
 	},
 ];
 
