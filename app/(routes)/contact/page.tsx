@@ -47,6 +47,7 @@ const ServicesPage = () => {
 								<div className="group flex flex-col items-center justify-center  bg-slate-600/30 w-4/5 rounded-md px-5 py-10">
 									<a
 										href="https://wa.link/opkvx5"
+										target="_blank"
 										className="group-hover:text-secondaryLight  transition ease-in-out duration-200 group-hover:scale-125 flex flex-col items-center"
 									>
 										<svg
