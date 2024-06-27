@@ -3,11 +3,16 @@ import { CoverParticles } from "@/components/CoverParticles";
 import { MotionTransition } from "@/components/MotionTransition";
 import MotionTransitionPage from "@/components/MotionTransitionPage";
 import { socialNetworks } from "@/data";
+import Head from "next/head";
 import Image from "next/image";
 
 const ServicesPage = () => {
 	return (
 		<>
+			<Head>
+				<title>Página de Servicios</title>
+				<meta name="services" content="Conoce los servicios que ofrezco." />
+			</Head>
 			<CoverParticles />
 			<MotionTransitionPage />
 			<div className="fixed bottom-0">
