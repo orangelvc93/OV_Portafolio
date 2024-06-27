@@ -55,13 +55,7 @@ Sigue estos pasos para instalar y ejecutar el proyecto en tu máquina local.
 ``npm run dev``
 
 ## Contribución
-Si deseas contribuir a este proyecto, por favor sigue los siguientes pasos:
-
-1. Haz un fork del proyecto.
-2. Crea una nueva rama (git checkout -b feature/nueva-funcionalidad).
-3. Realiza tus cambios y haz commit (git commit -m 'Añadir nueva funcionalidad').
-4. Sube tus cambios (git push origin feature/nueva-funcionalidad).
-5. Abre un Pull Request.
+Las contribuciones son bienvenidas. Si tienes alguna sugerencia o encuentras un error, por favor abre un issue o envía un pull request.
 
 
 
