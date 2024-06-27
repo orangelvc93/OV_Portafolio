@@ -11,12 +11,12 @@ const Header = () => {
 			<header>
 				<div className="container max-w-6xl mx-auto md:flex justify-between ">
 					<Link href="/">
-						<h1 className="text-center font-bold text-3xl my-3 md:text-left ">
+						<h2 className="text-center font-bold text-3xl my-3 md:text-left ">
 							Oran
 							<span className="bg-gradient-to-r from-secondary to-secondaryLight text-transparent bg-clip-text">
 								Dev
 							</span>
-						</h1>
+						</h2>
 					</Link>
 					<div className="flex items-center justify-center gap-7 ">
 						{socialNetworks.map((item) => (

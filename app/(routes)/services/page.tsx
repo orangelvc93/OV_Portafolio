@@ -3,12 +3,17 @@ import { CoverParticles } from "@/components/CoverParticles";
 import { MotionTransition } from "@/components/MotionTransition";
 import MotionTransitionPage from "@/components/MotionTransitionPage";
 import SliderServices from "@/components/SliderServices";
+import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 
 const ServicesPage = () => {
 	return (
 		<>
+			<Head>
+				<title>Página de Servicios</title>
+				<meta name="description" content="Conoce los servicios que ofrezco." />
+			</Head>
 			<CoverParticles />
 			<MotionTransitionPage />
 			<div className="fixed bottom-0">

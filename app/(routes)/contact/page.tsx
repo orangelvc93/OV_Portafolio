@@ -9,10 +9,7 @@ import Image from "next/image";
 const ServicesPage = () => {
 	return (
 		<>
-			<Head>
-				<title>Página de Servicios</title>
-				<meta name="services" content="Conoce los servicios que ofrezco." />
-			</Head>
+
 			<CoverParticles />
 			<MotionTransitionPage />
 			<div className="fixed bottom-0">
