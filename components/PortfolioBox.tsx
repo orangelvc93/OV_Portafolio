@@ -30,9 +30,9 @@ const PortfolioBox = (props: PortfolioBoxProps) => {
 					className="group-hover:scale-125  transition-all ease-in-out duration-500 group-hover:blur-[1px] w-full h-full object-cover"
 				/>
 				<div className=" bg-gradient-to-t from-darkBg  to-darkBg/70 absolute w-full h-[105%] top-0 transition-all translate-y-56 group-hover:translate-y-0 ease-in-out opacity-0 group-hover:opacity-100 duration-500 ">
-					<h1 className="px-4 pt-6 text-xl font-bold bg-gradient-to-r text-secondaryLight">
+					<h2 className="px-4 pt-6 text-xl font-bold bg-gradient-to-r text-secondaryLight">
 						{title}
-					</h1>
+					</h2>
 					<p className="px-4 text-sm ">{description}</p>
 					{/* Imprimimos los tags ======================= */}
 					<div className="flex flex-wrap gap-1 px-4 mt-2">
