@@ -16,8 +16,18 @@ const roboto = Roboto({
 });
 
 export const metadata: Metadata = {
-	title: "Orangel Valdespino - Portafolio",
+	title: {
+		default: "Inicio | Orangel Valdespino",
+		template: "%s | Orangel Valdespino"
+	},
 	description: "Portafolio creado por Orangel Valdespino",
+	openGraph: {
+		title: "Orangel Valdespino - Portafolio",
+		description: "Portafolio creado por Orangel Valdespino",
+		type: "website",
+		url: "https://orangelvaldespino.netlify.app/",
+		siteName: "Orangel Valdespino"
+	}
 };
 
 export default function RootLayout({
