@@ -255,7 +255,7 @@ export const serviceData = [
 
 export const dataPortfolio = [
   {
-    id: 5,
+    id: 1,
     title: "Sitio Web Corporativo Gensystems S.A.",
     image: "/gensystemsweb.webp",
     description:
@@ -274,7 +274,7 @@ export const dataPortfolio = [
     ],
   },
   {
-    id: 6,
+    id: 2,
     title: "Sitio Web The Josper BarberShop",
     image: "/berbershop.webp",
     description:
@@ -292,12 +292,20 @@ export const dataPortfolio = [
   },
   {
     id: 3,
-    title: "Estrategias Web",
-    image: "/image-3.jpg",
-    description: "",
-    urlGithub: "#!",
-    urlDemo: "#!",
-    tags: ["HTML", "CSS", "JavaScript"],
+    title: "Sitio Web Odonto Estética",
+    image: "/odontoestetica.webp",
+    description:
+      "Sitio web de Odonto Estética, clínica especializada en servicios odontológicos y tratamientos estéticos. Incluye información de servicios, contacto, galería de resultados y diseño adaptable a móviles.",
+    urlGithub: "https://github.com/orangelvc93/P_odontologia_estetica",
+    urlDemo: "https://odontologia-estetica.netlify.app/",
+    tags: [
+      "#React",
+      "#Tailwind",
+      "#TypeScript",
+      "#Vite",
+      "#EmailJS",
+      "#Zustand",
+    ],
   },
   {
     id: 4,
@@ -319,40 +327,41 @@ export const dataPortfolio = [
   },
   {
     id: 5,
-    title: "Webs Impactantes",
-    image: "/image-5.jpg",
-    description: "",
-    urlGithub: "#!",
-    urlDemo: "#!",
-    tags: ["HTML", "CSS", "JavaScript"],
-  },
-  {
-    id: 6,
-    title: "Web Dinámica",
+    title: "App de Citas Veterinarias",
     image: "/image-6.jpg",
-    description: "",
-    urlGithub: "#!",
-    urlDemo: "#!",
-    tags: ["HTML", "CSS", "JavaScript"],
+    description:
+      "Aplicación web para agendar citas veterinarias. Permite registrar pacientes, seleccionar fecha y hora, editar o eliminar citas. Almacena los datos en localStorage y es compatible con dispositivos móviles.",
+    urlGithub: "https://github.com/veterinaria-app/citas-vet",
+    urlDemo: "https://react-cites-vite.netlify.app/",
+    tags: ["#React", "#Tailwind", "#JavaScript", "#Vite", "#localStorage"],
   },
-  {
-    id: 7,
-    title: "Dark Web ",
-    image: "/image-7.jpg",
-    description: "",
-    urlGithub: "#!",
-    urlDemo: "#!",
-    tags: ["HTML", "CSS", "JavaScript"],
-  },
-  {
-    id: 8,
-    title: "E-commerce web",
-    image: "/image-8.jpg",
-    description: "",
-    urlGithub: "#!",
-    urlDemo: "#!",
-    tags: ["HTML", "CSS", "JavaScript"],
-  },
+  //   {
+  //     id: 6,
+  //     title: "Web Dinámica",
+  //     image: "/image-6.jpg",
+  //     description: "",
+  //     urlGithub: "#!",
+  //     urlDemo: "#!",
+  //     tags: ["HTML", "CSS", "JavaScript"],
+  //   },
+  //   {
+  //     id: 7,
+  //     title: "Dark Web ",
+  //     image: "/image-7.jpg",
+  //     description: "",
+  //     urlGithub: "#!",
+  //     urlDemo: "#!",
+  //     tags: ["HTML", "CSS", "JavaScript"],
+  //   },
+  //   {
+  //     id: 8,
+  //     title: "E-commerce web",
+  //     image: "/image-8.jpg",
+  //     description: "",
+  //     urlGithub: "#!",
+  //     urlDemo: "#!",
+  //     tags: ["HTML", "CSS", "JavaScript"],
+  //   },
 ];
 
 export const dataTestimonials = [
